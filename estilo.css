@@ -23,6 +23,11 @@
 
 */
 
+
+
+
+s
+
 .header{
     height: 100px;
     margin-bottom: 4rem;
@@ -93,6 +98,23 @@
 
 }
 
+a:hover{
+    color: gold;
+}
+
+.nav__enlace:hover{
+
+}
+
+.nav-item li a:hover{
+    color: gold;
+
+}
+
+.navbar-nav li a:hover{
+    color: brown;
+}
+
 /* subrayado en a (no me funciona)*/
 
 
@@ -129,7 +151,8 @@ h1{
     color: gold;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
-    font-weight:bolder;    
+    font-weight:bolder;   
+    
   
 
 }
@@ -143,10 +166,11 @@ h1{
 
 /*main*/
 
+/*
 main{
     padding-top: 180px;
     
-}
+}*/
 
 
 
@@ -325,7 +349,7 @@ main{
     margin-left: 5%;
     margin-right: 5%;
     display: grid;
-    grid-template-columns: 40% 20% 40%;
+    grid-template-columns: 40% 10% 40%;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     
     grid-template-areas:
@@ -420,12 +444,30 @@ main{
 .sociosTabla{
     text-align: center;
     margin-left: 40%;
+    margin-top: 10%;
     
 }
 
 table{
     border: 1px solid blue;
 }
+
+
+
+.socio{
+    background-color: rgb(218, 214, 214);
+    padding: 1rem;
+    height: 100%;
+    
+}
+
+.socio__imagen{
+    height: 200px;
+    width: 200px;
+}
+
+
+
 
 /*contacto*/
 
@@ -524,9 +566,16 @@ footer{
         text-align: center;
     }
 
+    .footer__imagen1 img{
+        object-fit: cover;
+        max-width: 80%;
+        height: auto;
+    }
+
     .footer__imagen2 img{
         object-fit: cover;
-        width: 100%;
+        max-width: 50%;
+        height: auto;
     }
     
       

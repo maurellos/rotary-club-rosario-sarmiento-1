@@ -6,15 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <link rel="shortcut icon" href="../imagenes/ruedaSola.png">
-    <link rel="stylesheet" href="../estilo.css">
+   
 
       <!--goolgeFonts-->
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-</head>
+
+      <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../estilo.css">
+
+
+    </head>
 <body>
 
+
+    <!--
     <header class="header">
 
         <div class="header__contenedor">
@@ -58,6 +67,60 @@
 
     </header>
 
+    -->
+
+
+
+    <header class="header__bootstrap">
+
+        <nav class="navbar navbar-expand-lg navbar navbar-light " style="background-color: white;">
+            <div class="container-fluid">
+
+              <a class="navbar-brand" href="#">
+                <img src="../imagenes/logoSolo.png" alt="" width="150px" height="75px">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse nav justify-content-end" id="navbarNav">
+                <ul class="navbar-nav ">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                      </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./historia.html">Historia</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="./proyectos.html">Proyectos</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="./socios.html">Socios</a>
+                  </li>
+
+                  <li class="nav-item ">
+                    <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                  </li>
+
+
+                        
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+
+          <div>
+            <h1>Rotary Club Rosario Sarmiento</h1>
+
+        </div>
+    </header>
+
   
 
 
@@ -69,11 +132,13 @@
         <div  class="contenerTextos">
             <h2 class="grupoTitulos">Ponete en contacto con el club</h2>
             <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam cum odit delectus reprehenderit mollitia quisquam minus fugiat. Quia, sequi accusamus. Voluptates doloremque neque voluptatem doloribus id quod. Doloremque, in harum?
+                Si desdeas colaborar con la institucion, no dudes en ponerte en contacto con nostros
             </p>
 
         
         </div>
+
+        <!-- cajaContactovieja
         
         <div class="cajaContacto">
 
@@ -155,6 +220,55 @@
 
         </div>
 
+        -->
+
+
+         <!--contaco con botstap-->
+
+         <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+
+                    <form action="">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@hotmail.com">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="motivoContacto" class="form-label">Motivo del contacto</label>
+                            <select  id="motivoContacto" class="form-select"  aria-label="Default select example">
+                                <option selected>Selecciona la Opcion</option>
+                                <option value="1">Donacion</option>
+                                <option value="2">Asociarte</option>
+                                <option value="3">Otro</option>
+                            </select>
+    
+    
+                          </div>
+
+
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+
+
+
+                    </form>
+
+
+
+
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <img  class="img-fluid" src="../imagenes/contacto/fotoPlanandoarbol.jpg" alt="plantandoArbol">
+                </div>
+            </div>
+
+         </div>
+
 
 
     </main>
@@ -171,7 +285,7 @@
     
             <div class="footer__imagen2">
                 <a href="https://www.facebook.com/profile.php?id=100006233087802" target="blank"> <img
-                    src="../imagenes/footer/endPolionow.png" alt="logoPolio" height="50px">
+                    src="../imagenes/footer/endPolionow.png" alt="logoPolio" height="100px">
     
     
             </div>
@@ -179,6 +293,13 @@
         </div>
     
     </footer>
+
+   
+
     
+   
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
+
 </body>
 </html>
