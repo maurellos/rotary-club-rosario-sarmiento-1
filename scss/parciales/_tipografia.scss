@@ -1,0 +1,30 @@
+
+
+.grupoTitulos{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border: 1px solid $colorprincipal; 
+    color: blue;
+    margin-bottom: 2%;
+   
+   
+
+}
+
+.grupoTextos{
+    font-family: $tipografia-secundaria;
+    color: $colorprincipal;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+
+
+}
+
+
+.contenerTextos{
+   
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}

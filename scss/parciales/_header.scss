@@ -1,0 +1,140 @@
+
+.header{
+    height: 100px;
+    margin-bottom: 4rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
+
+    &__contenedor{
+        max-width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+    
+    }
+
+    &__logo{
+        height: 80px;
+        width: 80px;
+        margin-left: 2rem;
+
+
+        & img{
+            height: 100%;
+        
+        }
+    
+    }
+
+
+    
+}
+
+
+
+
+
+
+.nav__lista{
+    display: flex;
+    gap: 1rem;
+    margin-right: 3rem;
+
+    & li{
+        list-style-type: none;
+        
+    }
+
+    
+         a{
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+
+   
+}
+
+
+
+
+
+
+    
+}
+
+
+
+
+/* Color en a*/
+
+.nav__lista li a:hover{
+    color: gold;
+
+}
+
+a:hover{
+    color: gold;
+}
+
+.nav__enlace:hover{
+
+}
+
+.nav-item li a:hover{
+    color: gold;
+
+}
+
+.navbar-nav li a:hover{
+    color: brown;
+}
+
+/* subrayado en a (no me funciona)*/
+
+
+.nav_lista li a:hover::after{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.nav__lista li a::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 100%;
+    height: 3px;
+    background-color: gold;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0,5s;
+    
+
+
+}
+
+
+
+
+h1{
+    background-color: $colorprincipal;
+    color: gold;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-weight:bolder;   
+    
+  
+
+}
+
+
+
+
+

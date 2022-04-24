@@ -8,7 +8,7 @@
     <title>Inicio</title>
 
     <link rel="shortcut icon" href="./imagenes/ruedaSola.png">
-   
+
 
     <!--goolgeFonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,49 +19,66 @@
 
 
     <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="./estilo.css">
-    
+    <link rel="stylesheet" href="./css/pruebacss.css">
+
 
 
 </head>
 
 <body>
 
-    <!--
 
-    <header class="header">
+    <header>
 
-        <div class="header__contenedor">
+        <nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color: white;">
+            <div class="container-fluid">
 
-            <div class="header__logo">
+                <a class="navbar-brand" href="#">
 
-                <img src="./imagenes/logoSolo.png" alt="logoRotary">
+                    <img src="./imagenes/logoSolo.png" alt="" width="150px" height="75px">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse nav justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav ">
+
+                        <li class="nav__enlace nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html"
+                                class="link-light">Inicio</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active link-warning" aria-current="page"
+                                href="./pages/historia.html">Historia</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/proyectos.html">Proyectos</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/socios.html">Socios</a>
+                        </li>
+
+                        <li class="nav-item ">
+                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                        </li>
+
+
+                        </li>
+
+
+                    </ul>
+                </div>
             </div>
+        </nav>
 
-
-            <nav class="nav">
-
-                <ul class="nav__lista">
-
-                    <li><a href="./index.html">Inicio</a> </li>
-
-                    <li><a href="./pages/historia.html">Historia</a> </li>
-
-                    <li><a href="./pages/proyectos.html">Proyectos</a></li>
-
-                    <li><a href="./pages/socios.html">Socios</a></li>
-
-                    <li><a href="./pages/contacto.html">Contacto</a></li>
-                </ul>
-
-
-
-            </nav>
-
-
-        </div>
 
         <div>
             <h1>Rotary Club Rosario Sarmiento</h1>
@@ -69,75 +86,13 @@
         </div>
     </header>
 
-    -->
 
-    <header>
-
-        <nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color: white;">
-            <div class="container-fluid">
-
-              <a class="navbar-brand" href="#">
-                  
-                <img src="./imagenes/logoSolo.png" alt="" width="150px" height="75px">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-
-              <div class="collapse navbar-collapse nav justify-content-end" id="navbarNav">
-                <ul class="navbar-nav ">
-
-                    <li class="nav__enlace nav-item">
-                        <a class="nav-link active" aria-current="page" href="./index.html" class="link-light" >Inicio</a>
-                      </li>
-
-                  <li class="nav-item">
-                    <a class="nav-link active link-warning" aria-current="page" href="./pages/historia.html">Historia</a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="nav-link" href="./pages/proyectos.html">Proyectos</a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="nav-link" href="./pages/socios.html">Socios</a>
-                  </li>
-
-                  <li class="nav-item ">
-                    <a class="nav-link" href="./pages/socios.html">Socios</a>
-                  </li>
-
-     
-                  </li>
-
-                
-                </ul>
-              </div>
-            </div>
-          </nav>
-
-
-          <div>
-            <h1>Rotary Club Rosario Sarmiento</h1>
-
-        </div>
-    </header>
-
-  
 
     <main>
 
-      
-
-
-       
-
         <div class="contenerTextos">
 
-            <h2 class="grupoTitulos">¿Que Hacemos? 
-    
-                
-                </h2>
+            <h2 class="grupoTitulos">¿Que Hacemos? </h2>
 
             <p class="grupoTextos">Rotary es una red mundial compuesta de 1 200 000 vecinos, amigos, líderes y personas
                 dedicadas a solucionar problemas, quienes ven un planeta en que las
@@ -149,40 +104,36 @@
         </div>
 
         <div>
-            
-
-
-               
             <section>
 
-                <div class="contenerTextos"> 
+                <div class="contenerTextos">
                     <h3 class="grupoTitulos">Conoce nuestras Areas de Interes</h3>
 
                 </div>
 
-               
-
                 <div class="cajaIndex">
 
-                    <div class="cajaIndex__hijo1 imagen contenedor "> <img src="./imagenes/index/fotosIguales/fightHunfer.jpg" alt=""  > </div>
-    
-                    <div class="cajaIndex__hijo2 imagen" > <img src="./imagenes/index/fotosIguales/inspire.jpg" alt="" ></div>
-    
-                    <div class="cajaIndex__hijo3 imagen"> <img src="./imagenes/index/fotosIguales/learn.jpg" alt="" ></div>
-    
-                    <div class="cajaIndex__hijo4 imagen"> <img src="./imagenes/index/fotosIguales/mentor.jpg" alt="" ></div>
-    
-                    <div class="cajaIndex__hijo5 imagen"> <img src="./imagenes/index/fotosIguales/saveLifes.jpg" alt="" ></div>
-    
-                    <div class="cajaIndex__hijo6 imagen"> <img src="./imagenes/index/fotosIguales/tramsform.jpg" alt="" ></div>
-    
-    
+                    <div class="cajaIndex__hijo1 imagen contenedor "> <img
+                            src="./imagenes/index/fotosIguales/fightHunfer.jpg" alt=""> </div>
+
+                    <div class="cajaIndex__hijo2 imagen"> <img src="./imagenes/index/fotosIguales/inspire.jpg" alt="">
+                    </div>
+
+                    <div class="cajaIndex__hijo3 imagen"> <img src="./imagenes/index/fotosIguales/learn.jpg" alt="">
+                    </div>
+
+                    <div class="cajaIndex__hijo4 imagen"> <img src="./imagenes/index/fotosIguales/mentor.jpg" alt="">
+                    </div>
+
+                    <div class="cajaIndex__hijo5 imagen"> <img src="./imagenes/index/fotosIguales/saveLifes.jpg" alt="">
+                    </div>
+
+                    <div class="cajaIndex__hijo6 imagen"> <img src="./imagenes/index/fotosIguales/tramsform.jpg" alt="">
+                    </div>
+
                 </div>
 
-
             </section>
-
-
 
         </div>
 
@@ -192,26 +143,28 @@
     <footer class="footer">
 
         <div class="footer__contenedor">
-    
-            <div class="footer__imagen1"> 
+
+            <div class="footer__imagen1">
                 <a href="https://www.rotary.org/es" target="blank"> <img src="./imagenes/footer/rotaryAbre.png"
-                    alt="frase2020"   width="100%"> </a>
+                        alt="frase2020" width="100%"> </a>
             </div>
-    
+
             <div class="footer__imagen2">
                 <a href="https://www.facebook.com/profile.php?id=100006233087802" target="blank"> <img
-                    src="./imagenes/footer/endPolionow.png" alt="logoPolio" width="50px" height="100px">
-    
-    
-            </div>
-    
-        </div>
-    
-    </footer>
-    
+                        src="./imagenes/footer/endPolionow.png" alt="logoPolio" width="50px" height="100px">
 
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 
 </body>
 

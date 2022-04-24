@@ -1,0 +1,141 @@
+/* media queries*/
+
+/*tablet*/
+
+
+@media (max-width: 1024px ){
+
+
+    .header__contenedor{
+        flex-direction: column;
+                
+    }
+
+    .header__logo{
+        align-self: flex-start;
+    }
+
+    .header{
+        margin-bottom: 100px;
+    }
+    
+
+    .cajaIndex{
+        grid-template-columns: 1fr 1fr ;
+        grid-template-columns: auto auto auto;
+        grid-template-areas: "hijo1 hijo2"
+                            "hijo3 hijo4"
+                            "hijo5 hijo6";
+    }
+
+    .polio{
+   
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+       
+     
+    }
+
+    .footer__contenedor{
+        flex-direction: column;
+        max-width: fit-content;
+        text-align: center;
+    }
+
+    .footer__imagen1 img{
+        object-fit: cover;
+        max-width: 80%;
+        height: auto;
+    }
+
+    .footer__imagen2 img{
+        object-fit: cover;
+        max-width: 50%;
+        height: auto;
+    }
+    
+      
+    
+  
+}
+
+
+
+/*mobil*/
+
+@media (max-width: 600px ){
+
+    .header__contenedor{
+        
+        
+    }
+
+    .nav__lista{
+        flex-wrap: wrap;
+        margin-bottom: 150px;
+
+        
+    }
+
+
+    .cajaIndex{
+       
+        grid-template-columns: 1fr;
+        grid-template-columns: auto auto auto auto auto auto;
+        grid-template-areas: "hijo1"
+                            "hijo2"
+                            "hijo3"
+                            "hijo4"
+                            "hijo5"
+                            "hijo6"
+            
+                            ;
+    }
+
+    .historia__cajaGrande{
+    
+        
+        margin-left: 5%;
+        margin-right: 5%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(12, 1fr) ;
+        grid-template-areas:"foto1"
+                            "d1"
+                            "foto2"
+                            "i2"
+                            "foto3"
+                            "d3"
+                            "foto4"
+                            "i4"
+                            "foto5"
+                            "d5"
+                            "foto6"
+                            "i6";
+
+
+
+
+
+        /*"foto1 blanco d1"
+        "i2 blanco foto2"
+        "foto3 blanco d3"
+        "i4 blanco foto4"
+        "foto5 blanco d5"
+        "i6 blanco foto6"*/
+        
+    }
+
+
+
+
+
+
+
+
+    
+   
+}
+
+
