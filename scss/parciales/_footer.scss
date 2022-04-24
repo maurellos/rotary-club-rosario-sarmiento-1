@@ -1,8 +1,15 @@
 
+
+
+
+
+
+
 /*footer*/
 
 footer{
-    margin-top: 100%;
+    border: 1px solid $colorprincipal;
+    margin-top: 15%;
 
 
 
@@ -21,15 +28,13 @@ footer{
 
 
 .footer__contenedor{
-    display: flex;
     flex-direction: row;
-    justify-content: center; 
-    
-   
-    
-   
-    
+    @include flex(center, center); 
+    margin-top: 5vh;
 }
+
+
+
 
 .footer__imagen1 img{
     object-fit: cover;

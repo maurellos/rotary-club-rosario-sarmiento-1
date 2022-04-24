@@ -3,8 +3,6 @@
 
 /* index*/
 
-
-
 .cajaIndex{
     margin: 2% 5% 10% 5%;
     border: 2px solid black;
@@ -45,8 +43,6 @@
 }
 
 
-
-
 .imagen img{
    width: 100%;
    object-fit: cover;
@@ -78,7 +74,6 @@
   
 
 }
-
 
 
 .caja__polio{
@@ -154,8 +149,8 @@
 
 
 .historia__cajaGrande{
-    border: 1px solid "npm run build-css";
-    
+    border: 1px solid $colorprincipal;
+    background-image: url(.);
     margin-left: 5%;
     margin-right: 5%;
     display: grid;
@@ -178,7 +173,6 @@
     grid-area:foto1;
     
 }
-
 
 .historia__fotoIzquierda2{
     grid-area: foto2;
@@ -209,7 +203,6 @@
     margin-top: 10%;
     
 }
-
 
 
 .historia__texto2{
@@ -251,16 +244,6 @@
 
 /*socios*/
 
-.sociosTabla{
-    text-align: center;
-    margin-left: 40%;
-    margin-top: 10%;
-    
-}
-
-table{
-    border: 1px solid "npm run build-css";
-}
 
 
 

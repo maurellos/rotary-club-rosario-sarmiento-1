@@ -1,0 +1,7 @@
+
+@mixin flex($eje-princiopal, $eje-secundario) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
