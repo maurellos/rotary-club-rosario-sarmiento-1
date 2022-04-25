@@ -15,11 +15,20 @@
   color: blue;
   margin-left: 5%;
   margin-right: 5%;
-  margin-bottom: 2%; }
+  margin-bottom: 2%;
+  text-transform: uppercase;
+  font-size: large; }
 
 .contenerTextos {
   margin-left: 5%;
   margin-right: 5%;
+  text-align: center; }
+
+.historias__tipografia {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: grey;
+  font-size: bolder;
+  text-transform: uppercase;
   text-align: center; }
 
 .header {
@@ -44,6 +53,9 @@
     .header__logo img {
       height: 100%; }
 
+.navMauro {
+  color: red; }
+
 .nav__lista {
   display: flex;
   gap: 1rem;
@@ -54,7 +66,8 @@
     display: block;
     text-transform: uppercase;
     text-decoration: none;
-    position: relative; }
+    position: relative;
+    color: red; }
 
 /* Color en a*/
 .nav__lista li a:hover {
@@ -133,6 +146,7 @@ h1 {
     text-decoration: solid; }
 
 .caja__polio {
+  background-image: url(/imagenes/historiaDelclub/fondo.jpg);
   border: 5px solid black;
   margin-left: auto;
   margin-right: auto;
@@ -180,7 +194,7 @@ h1 {
 
 .historia__cajaGrande {
   border: 1px solid blue;
-  background-image: url(.);
+  background-image: url(/imagenes/historiaDelclub/fondo.jpg);
   margin-left: 5%;
   margin-right: 5%;
   display: grid;
@@ -253,7 +267,8 @@ h1 {
 /*footer*/
 footer {
   border: 1px solid blue;
-  margin-top: 15%; }
+  margin-top: 15%;
+  background-image: url(/imagenes/footer/fondo2.jpg); }
 
 .footerLista ul li {
   display: inline-block; }
@@ -314,9 +329,11 @@ footer {
   .cajaIndex {
     grid-template-columns: 1fr;
     grid-template-columns: auto auto auto auto auto auto;
-    grid-template-areas: "hijo1" "hijo2" "hijo3" "hijo4" "hijo5" "hijo6"; }
+    grid-template-areas: "hijo1" "hijo2" "hijo3" "hijo4" "hijo5" "hijo6";
+    grid-column-gap: 0px; }
   .historia__cajaGrande {
-    margin-left: 5%;
+    max-width: 350px;
+    margin-left: 15%;
     margin-right: 5%;
     display: grid;
     grid-template-columns: 100%;

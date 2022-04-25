@@ -17,6 +17,8 @@
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 2%;
+    text-transform: uppercase;
+    font-size: large;
 
 
 }
@@ -27,4 +29,14 @@
     margin-left: 5%;
     margin-right: 5%;
     text-align: center;
+}
+
+.historias__tipografia{
+    font-family: $tipografia-secundaria;
+    color: $colorSecundario;
+    font-size: bolder;
+    text-transform: uppercase;
+    text-align: center;
+    
+
 }

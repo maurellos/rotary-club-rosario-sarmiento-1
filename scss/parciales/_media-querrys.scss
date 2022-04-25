@@ -88,15 +88,15 @@
                             "hijo3"
                             "hijo4"
                             "hijo5"
-                            "hijo6"
-            
-                            ;
+                            "hijo6";
+      
+        grid-column-gap: 0px;
     }
 
     .historia__cajaGrande{
     
-        
-        margin-left: 5%;
+        max-width: 350px;
+        margin-left: 15%;
         margin-right: 5%;
         display: grid;
         grid-template-columns: 100%;
@@ -118,6 +118,8 @@
 
 
     }
+
+ 
 
 
 

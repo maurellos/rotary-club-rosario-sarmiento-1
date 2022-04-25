@@ -37,7 +37,9 @@
 }
 
 
-
+.navMauro{
+    color: red;
+}
 
 
 
@@ -47,7 +49,7 @@
     margin-right: 3rem;
 
     & li{
-        list-style-type: none;
+        list-style-type: none;     
         
     }
 
@@ -57,6 +59,7 @@
     text-transform: uppercase;
     text-decoration: none;
     position: relative;
+    color: red;
 
    
 }
